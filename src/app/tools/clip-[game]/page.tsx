@@ -1,7 +1,7 @@
 import WaitlistForm from "@/components/WaitlistForm";
 
 export default function GameSEOPage({params}:{params: {game: string}}){
-    const gameName = params.game.replace('-',' ');
+    const gameName = params.game?.replace('-',' ') || 'Valorant'; //gameName?.replace('-', ' ') || 'Default Name'
 
     return(
         <div className="bg-[#0a0a0a] text-white min-h-screen">
