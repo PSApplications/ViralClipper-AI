@@ -8,7 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ]
 
   const gameUrls = games.map((game) => ({
-    url: `${baseUrl}/tools/clip-${game}`,
+    url: `${baseUrl}/tools/${game}`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
     priority: 0.8,
