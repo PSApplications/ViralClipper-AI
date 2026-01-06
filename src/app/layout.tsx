@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "ViralClipper AI | AI Video Editor for Streamers",
   description: "Turn Twitch/Youtube VODs into Youtube Shorts/Instagram Reels instantly.",
+  verification: {
+    google: "s0S7xbAnzPPSRfRLuE4U0x3nTw-DW4lSKRddhBo3jZ4"
+  }
 };
 
 export default function RootLayout({
