@@ -2,7 +2,6 @@
 import React from "react";
 import { useState } from "react";
 import { supabase} from "./lib/supabase";
-import { Analytics } from "@vercel/analytics/next"
 
 export default function LandingPage() {
   const [email,setEmail] = useState('');
